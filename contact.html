@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Digit-Algo</title>
+  <meta name="description" content="Start your mission with Digit-Algo. Reach our teams in India and the UAE." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-page="contact">
+  <div class="bg-fx" aria-hidden="true"><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div></div>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="big-glyph" aria-hidden="true">🛰️</div>
+      <div class="container">
+        <div class="crumbs" data-reveal><a href="index.html">home</a> / contact</div>
+        <h1 data-reveal style="--d:.1s">Start your <span class="grad-text">mission</span></h1>
+        <p class="lead" data-reveal style="--d:.2s">Tell us about your operations. Our Digital Explorer will reach out to understand your environment and chart the path to one simplified platform.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:20px">
+      <div class="container contact-grid">
+        <div class="contact-items">
+          <a class="card contact-item" href="mailto:info@digit-algo.com" data-reveal>
+            <div class="icon-box">✉️</div>
+            <div><small>Email</small><span>info@digit-algo.com</span></div>
+          </a>
+          <a class="card contact-item" href="tel:+919495211633" data-reveal style="--d:.05s">
+            <div class="icon-box">📞</div>
+            <div><small>India</small><span>+91 9495211633</span></div>
+          </a>
+          <a class="card contact-item" href="tel:+971507184071" data-reveal style="--d:.1s">
+            <div class="icon-box">📱</div>
+            <div><small>UAE</small><span>+971 507184071</span></div>
+          </a>
+          <div class="card contact-item" data-reveal style="--d:.15s">
+            <div class="icon-box">📍</div>
+            <div><small>Office</small><span>Puthiyakavu, Thrissur, Kerala, India</span></div>
+          </div>
+        </div>
+
+        <form class="card" id="contact-form" data-reveal style="--d:.1s">
+          <h3 style="margin-bottom:24px">Mission brief</h3>
+          <div class="row">
+            <div class="field"><label for="name">Name</label><input id="name" name="name" required autocomplete="name" /></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email" /></div>
+          </div>
+          <div class="row">
+            <div class="field"><label for="company">Company</label><input id="company" name="company" autocomplete="organization" /></div>
+            <div class="field">
+              <label for="solution">Interested in</label>
+              <select id="solution" name="solution">
+                <option>Retail Operations</option>
+                <option>Logistics Operations</option>
+                <option>Automated Trading</option>
+                <option>LimoDA</option>
+                <option>Odoo Implementation</option>
+                <option selected>Custom Solution</option>
+              </select>
+            </div>
+          </div>
+          <div class="field"><label for="message">Tell us about your operations</label><textarea id="message" name="message" required></textarea></div>
+          <button class="btn" type="submit">Launch message <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <p class="form-note">Submitting opens your email app with the message pre-filled to info@digit-algo.com.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
